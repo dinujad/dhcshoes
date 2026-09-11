@@ -35,7 +35,7 @@
                 <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-label="Open menu">
                     <span></span>
                 </button>
-            </nav>
+                </nav>
         </header>
 
         <main id="main">
@@ -129,7 +129,7 @@
                 <p>Tell us your size, your city, and the chapter you want — Signature, Evening, or Limited. We answer with care, not haste.</p>
                 <a class="btn btn-red" href="mailto:hello@dhcfootwear.com">hello@dhcfootwear.com</a>
             </section>
-        </main>
+            </main>
 
         <footer class="site-footer glass">
             <a class="brand" href="#top">
@@ -154,7 +154,7 @@
                     <p>Transparent layers</p>
                     <p>Premium finish</p>
                 </div>
-            </div>
+        </div>
             <div class="legal">© {{ date('Y') }} DHC Footwear. All rights reserved.</div>
         </footer>
 

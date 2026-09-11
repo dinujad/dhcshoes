@@ -8,8 +8,8 @@
     <link rel="icon" href="{{ asset('images/products/logo-circle.png') }}" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('css/store.css') }}?v=logo-red">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@400;500;600&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/store.css') }}?v=mark-sm">
 </head>
 <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -72,7 +72,7 @@
         <div class="wrap footer-grid">
             <div class="footer-brand">
                 <img src="{{ asset('images/products/logo-circle.png') }}" alt="DHC Footwear Store">
-                <p>DHC Footwear Store — delivery and in-store shopping from Mirigama, Sri Lanka. 100% recommend from 5 reviews.</p>
+                <p>DHC Footwear Store is your destination for street sneakers in Mirigama. Delivery and in-store shopping — always open.</p>
                 <div class="socials">
                     <a href="https://www.facebook.com/share/1EVZEaSvpK/?mibextid=wwXIfr" target="_blank" rel="noopener">Facebook</a>
                     <a href="https://wa.me/94763351580" target="_blank" rel="noopener">WhatsApp</a>
@@ -80,33 +80,41 @@
                 </div>
             </div>
             <div>
-                <h4>Quick links</h4>
-                <a href="{{ route('home') }}">Home</a>
+                <h4>Shop</h4>
                 <a href="{{ route('shop', ['category' => 'men']) }}">Men</a>
                 <a href="{{ route('shop', ['category' => 'women']) }}">Women</a>
                 <a href="{{ route('shop', ['category' => 'street']) }}">Street</a>
-                <a href="{{ route('shop', ['category' => 'sale']) }}">Offers</a>
+                <a href="{{ route('shop') }}">New arrivals</a>
+                <a href="{{ route('shop', ['category' => 'sale']) }}">Sale</a>
             </div>
             <div>
                 <h4>Customer service</h4>
+                <a href="{{ route('about') }}">Contact us</a>
                 <a href="{{ route('about') }}">FAQs</a>
-                <a href="{{ route('about') }}">Shipping policy</a>
-                <a href="{{ route('about') }}">Return & exchange</a>
+                <a href="{{ route('about') }}">Shipping info</a>
+                <a href="{{ route('about') }}">Returns &amp; refunds</a>
                 <a href="{{ route('about') }}">Size guide</a>
             </div>
             <div>
-                <h4>Information</h4>
+                <h4>Company</h4>
                 <a href="{{ route('about') }}">About us</a>
-                <a href="{{ route('about') }}">Our story</a>
-                <a href="tel:+94763351580">+94 76 335 1580</a>
-                <a href="mailto:dhcshoe@gmail.com">dhcshoe@gmail.com</a>
+                <a href="{{ route('about') }}">Our store</a>
+                <a href="mailto:dhcshoe@gmail.com">Careers</a>
             </div>
             <div>
                 <h4>Contact us</h4>
                 <p>Mirigama, Sri Lanka</p>
                 <p>11200</p>
-                <p>Delivery · In-store shopping</p>
-                <p>Always open</p>
+                <p><a href="tel:+94763351580">+94 76 335 1580</a></p>
+                <p><a href="mailto:dhcshoe@gmail.com">dhcshoe@gmail.com</a></p>
+            </div>
+            <div>
+                <h4>We accept</h4>
+                <div class="pay-pills">
+                    <span>Cash on delivery</span>
+                    <span>WhatsApp</span>
+                    <span>In-store</span>
+                </div>
             </div>
         </div>
         <div class="wrap legal">© {{ date('Y') }} DHC Footwear Store. All rights reserved.</div>

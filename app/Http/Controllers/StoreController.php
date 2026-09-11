@@ -12,6 +12,7 @@ class StoreController extends Controller
         return view('store.home', [
             'categories' => Catalog::categories(),
             'featured' => array_slice(Catalog::products(), 0, 6),
+            'arrivals' => array_slice(Catalog::products(), 6, 4),
         ]);
     }
 
